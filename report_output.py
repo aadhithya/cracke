@@ -16,7 +16,7 @@ def report_crack(length,breadth,time,material,max_load,min_load):
     return crack_length,output,num_cycles 
 
 def report_no_crack(length,breadth,time,material,max_load,min_load):
-    if(length == 0 and breadth == 0):
+    if(length == None and breadth == None):
         output = 'Not cracked'
     file = pd.read_csv('./material.csv')
     C_constant = file[(file['material']== material)&(file['time']==time)]['C']
