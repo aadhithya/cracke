@@ -21,8 +21,9 @@ def report_crack(length,breadth,time,material,max_load,min_load):
             num_cycles = 'Cracks due to excessive fatigue (Usage based) ' 
         else:
             num_cycles = 'manufacturing defect'
+        return crack_length,output,num_cycles, cycles[0]
     # print(crack_length,output,num_cycles)
-    return crack_length,output,num_cycles, cycles[0]
+    return crack_length,output,num_cycles, -1
 
 # def report_no_crack(length,breadth,time,material,max_load,min_load):
 #     if(length == None and breadth == None):
