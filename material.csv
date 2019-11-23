@@ -1,0 +1,37 @@
+material,cycles,time,C,m
+aluminium7075,100,2,5.00E-12,3
+steel,100,2,1.00E-12,2
+cast iron,100,2,8.00E-14,3
+magnesium alloys,100,2,3.00E-12,2
+carbon composite,100,2,4.00E-14,2
+aluminium5083,100,2,5.00E-12,3
+aluminium7075,1000,3,5.00E-12,3
+steel,1000,3,1.00E-12,2
+cast iron,1000,3,8.00E-14,3
+magnesium alloys,1000,3,3.00E-12,2
+carbon composite,1000,3,4.00E-14,2
+aluminium5083,1000,3,5.00E-12,3
+aluminium7075,10000,4,5.00E-12,3
+steel,10000,4,1.00E-12,2
+cast iron,10000,4,8.00E-14,3
+magnesium alloys,10000,4,3.00E-12,2
+carbon composite,10000,4,4.00E-14,2
+aluminium5083,10000,4,5.00E-12,3
+aluminium7075,100000,5,5.00E-12,3
+steel,100000,5,1.00E-12,2
+cast iron,100000,5,8.00E-14,3
+magnesium alloys,100000,5,3.00E-12,2
+carbon composite,100000,5,4.00E-14,2
+aluminium5083,100000,5,5.00E-12,3
+aluminium7075,1000000,6,5.00E-12,3
+steel,1000000,6,1.00E-12,2
+cast iron,1000000,6,8.00E-14,3
+magnesium alloys,1000000,6,3.00E-12,2
+carbon composite,1000000,6,4.00E-14,2
+aluminium5083,1000000,6,5.00E-12,3
+aluminium7075,10000000,7,5.00E-12,3
+steel,10000000,7,1.00E-12,2
+cast iron,10000000,7,8.00E-14,3
+magnesium alloys,10000000,7,3.00E-12,2
+carbon composite,10000000,7,4.00E-14,2
+aluminium5083,10000000,7,5.00E-12,3
