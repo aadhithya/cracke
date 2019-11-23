@@ -1,4 +1,4 @@
-from mdutils.mdutils import MdUtils
+# from mdutils.mdutils import MdUtils
 from report_output import *
 
 def generate_report(path,filename,length,breadth,time,material,max_load,min_load):
@@ -20,25 +20,27 @@ def generate_report(path,filename,length,breadth,time,material,max_load,min_load
 
     # mdFile.create_md_file()
 
-    with open('Report.html','w') as file:
+    with open('report.html','w') as file:
         file.write('<html> \n ')
-        file.write('<head> <title>Report: {}  </title></head>'.format(filename[:-4]))
-        file.write('<body> \n')
-        file.write('<center><h1>Report: {}</h1><hr>'.format(filename[:-4]))
-        file.write('<p><img src="{}" width="600"> </p></br>'.format(path+filename))
-        file.write('<h3> Input Variable</h3></br><hr>')
-        file.write(f'<b>Material of the sample:</b>{material}</br>')
-        file.write(f'<b>Component usage time:</b>{time} years</br>')
-        file.write(f'<b>Maximum load capacity of the component:</b>{max_load} MPa</br>')
-        file.write(f'<b>Maximum load capacity of the component:</b>{min_load} MPa</br>')
+        file.write('<head><title>Report: {}  </title>'.format(filename[:-4]))
+        file.write('<link rel="stylesheet" href="style.css"> </head>\n')
+        file.write('<body> <center> <div class="card main-card">\n')
+        file.write('<h1>Report: {}</h1><hr>'.format(filename[:-4]))
+        file.write('<p><img class="inner-card" src="{}" width="600"> </p></br>'.format(path+filename))
+        file.write('<div class="inner-card text-card"> <h2>Input</h2><hr>')
+        file.write(f'<b>Material of the sample</b><div>{material}</br></div>')
+        file.write(f'<b>Component usage time</b><div>{time} years</br></div>')
+        file.write(f'<b>Maximum load capacity of the component</b><div>{max_load} MPa</br></div>')
+        file.write(f'<b>Maximum load capacity of the component</b><div>{min_load} MPa</br></div></div>')
 
-        crack_length, output, analysis = report_crack(length,breadth,time,material,max_load,min_load)
-        file.write('<h3> Output</h3></br><hr>')
-        file.write(f'<b> Crack status:</b>{output} </br> ')
-        file.write(f'<b> Analysis of the sample:</b>{analysis} </br> ')
-        file.write(f'<b> Approximate crack length :</b>{crack_length} Micrometer </br></center>')
-        
+        crack_length, output, analysis, cycles = report_crack(length,breadth,time,material,max_load,min_load)
+        file.write('<div class="inner-card text-card"><h2> Output</h2><hr>')
+        color = 'poda' if 'not' in output.lower() else 'danger'
+        file.write(f'<b> Crack status</b><div class="{color}">{output} </br></div> ')
+        file.write(f'<b> Analysis of the sample </b><div>{analysis}</br> </div> ')
+        file.write(f'<b> Approximate crack length </b><div>{crack_length:0.3f} Micrometer </br></div>')
+        file.write(f'<b> Cycles since Damage (CrackDating™) </b><div>{int(cycles)} </br></div></div></div></center> </body></html>')
 
 
-generate_report('./','201506009_LIMI_007979.jpg',5,4,2,'cast iron',1000,200)
+generate_report('./data/','201201004_LIMI_000929.jpg',0,0,2,'cast iron',1000,200)
 # generate_pdf('./','Report_201506009_LIMI_007979.jpg.md')
