@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app",
+    "types": []
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts"
+  ],
+  "paths": {
+    "socket.io-client": ["/home/jyotirmay/WebstormProjects/untitled/myApp/node_modules/socket.io-client/dist/socket.io.slim.js"]
+  }
+}

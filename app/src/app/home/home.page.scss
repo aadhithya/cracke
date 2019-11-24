@@ -1,0 +1,12 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+#container {
+  position: relative;
+}
+#contents {
+  position: absolute;
+  bottom: 0;
+}
