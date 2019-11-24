@@ -2,6 +2,10 @@
 
 Unsupervised crack detection and more for microscpopic metal surfaces. Uses no deep/machine learning but just image processing from opencv.
 
+![Sample Output](imgs/rsz_sampleop.png)
+
+![Sample Report](imgs/CRACKE.jpg)
+
 ## Components
 Cracke has the following components:
 ### Image Processing Pipeline (bounding_box.py)
@@ -36,5 +40,9 @@ other dependencies: ionic.
 * go to /app ```ionic cordova run browser```
 
 for server go to /server ```python run.py```
+
+HackaTUM Presentation: [Click Here.](https://docs.google.com/presentation/d/1rKQtiG4wDwnxOp7MqF_1gFau4qesZxwFFZdlHA-vDts/edit?usp=sharing)
+
+Devpost Link: [Click Here](https://devpost.com/software/crack-e)
 
 **PS:** The entire pipeline was coded in a day for the hackathon and therefore is crude and raw and at times even unintelligeble. We'll try to fix bugs and clean up the code as much as possible. In the meanwhile please also feel free to fork and contribute to our codebase. 
