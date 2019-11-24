@@ -1,0 +1,46 @@
+body{
+    border-radius: 2px solid #585858;
+}
+
+.card{
+    box-shadow: 4px 4px 4px 4px #d6d6d6;
+    border-radius: 5px;
+}
+
+.main-card{
+    width: 90%;
+    padding:15px;
+}
+
+.inner-card{
+    box-shadow:2px 2px 2px 2px #d6d6d6;
+    border-radius: 7px;
+}
+
+.text-card{
+    padding:15px;
+    width:60%;
+    height:auto;
+    margin-bottom:15px;
+    text-align: justify-all;
+}
+
+img{
+    width: 60%;
+    border-radius: 7px;
+}
+
+b{
+    color: #7D7D7D;
+}
+
+h2{
+    color:#525252;
+}
+h1{
+    color: #333333;
+}
+.danger{
+    color: #FF0000;
+    text-emphasis: 5px;
+}
