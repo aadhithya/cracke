@@ -46,3 +46,13 @@ HackaTUM Presentation: [Click Here.](https://docs.google.com/presentation/d/1rKQ
 Devpost Link: [Click Here](https://devpost.com/software/crack-e)
 
 **PS:** The entire pipeline was coded in a day for the hackathon and therefore is crude and raw and at times even unintelligeble. We'll try to fix bugs and clean up the code as much as possible. In the meanwhile please also feel free to fork and contribute to our codebase. 
+
+### Contributors
+
+- [Aadhithya Sankar](https://www.linkedin.com/in/asankar96/)
+- [Abinav Ravi Venkatakrishnan](https://www.linkedin.com/in/abinav-ravi-venkatakrishnan/)
+- [Jyotirmay Senapati](https://www.linkedin.com/in/jyotirmay-senapati-30615421/)
+- [Abhijeet Parida](https://www.linkedin.com/in/a-parida/)
+
+**HackaTUM 2019**
+
