@@ -49,10 +49,10 @@ Devpost Link: [Click Here](https://devpost.com/software/crack-e)
 
 ### Contributors
 
-- [Aadhithya Sankar](https://www.linkedin.com/in/asankar96/)
-- [Abinav Ravi Venkatakrishnan](https://www.linkedin.com/in/abinav-ravi-venkatakrishnan/)
-- [Jyotirmay Senapati](https://www.linkedin.com/in/jyotirmay-senapati-30615421/)
-- [Abhijeet Parida](https://www.linkedin.com/in/a-parida/)
+- Aadhithya Sankar [github](https://github.com/aadhithya/), [linkedin](https://www.linkedin.com/in/asankar96/)
+- Abinav Ravi Venkatakrishnan [github](https://github.com/AbinavRavi), [linkedin](https://www.linkedin.com/in/abinav-ravi-venkatakrishnan/)
+- Jyotirmay Senapati [github](https://github.com/jyotirmay123), [linkedin](https://www.linkedin.com/in/jyotirmay-senapati-30615421/)
+- Abhijeet Parida [github](https://github.com/a-parida12), [linkedin](https://www.linkedin.com/in/a-parida/)
 
 **HackaTUM 2019**
 
